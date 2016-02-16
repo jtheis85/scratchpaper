@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "redux-devtools": "^3.1.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "browserify main.js -o bundle.js",
+    "watch": "watchify main.js -o bundle.js"
+  }
+}
