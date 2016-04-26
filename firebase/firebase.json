@@ -1,0 +1,9 @@
+{
+  "firebase": "sizzling-fire-1352",
+  "public": "app",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
